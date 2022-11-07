@@ -1,6 +1,7 @@
 import React from 'react';
 import {SafeAreaView} from 'react-native';
 import LoopingAnimation from './src/LoopingAnimation';
+import LottieAnimation from './src/LottieAnimation';
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
         backgroundColor: '#fff',
       }}>
       {/* <Animated /> */}
-      <LoopingAnimation />
+      {/* <LoopingAnimation /> */}
+      <LottieAnimation />
     </SafeAreaView>
   );
 };
