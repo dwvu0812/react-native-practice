@@ -17,7 +17,6 @@ import {faker} from '@faker-js/faker';
 
 const {width, height} = Dimensions.get('screen');
 
-faker.seed(10);
 const DATA = [...Array(30).keys()].map((_, i) => {
   return {
     userId: faker.datatype.uuid(),
