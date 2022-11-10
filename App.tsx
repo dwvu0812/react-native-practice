@@ -1,5 +1,6 @@
 import React from 'react';
 import {SafeAreaView} from 'react-native';
+import Appearances from './src/Appearance';
 import FlatlistAnimation from './src/FlatlistAnimation';
 import FlatlistScrollToIndex from './src/FlatlistScrollToIndex';
 import LoopingAnimation from './src/LoopingAnimation';
@@ -18,7 +19,8 @@ const App = () => {
       {/* <LoopingAnimation /> */}
       {/* <LottieAnimation /> */}
       {/* <FlatlistAnimation /> */}
-      <FlatlistScrollToIndex />
+      {/* <FlatlistScrollToIndex /> */}
+      <Appearances />
     </SafeAreaView>
   );
 };
