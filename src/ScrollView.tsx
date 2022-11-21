@@ -6,7 +6,11 @@ const ScrollViewRN = () => {
   const scrollRef = React.createRef<ScrollView>();
   return (
     <>
-      <ScrollView ref={scrollRef} showsVerticalScrollIndicator={false}>
+      <ScrollView
+        ref={scrollRef}
+        showsVerticalScrollIndicator={false}
+        showsHorizontalScrollIndicator={false}
+        horizontal>
         <View style={{width: 200, height: 200, backgroundColor: 'red'}}></View>
         <View
           style={{width: 200, height: 200, backgroundColor: 'green'}}></View>
@@ -24,7 +28,7 @@ const ScrollViewRN = () => {
         title="Scroll"
         onPress={() => {
           console.log('scroll---------------');
-          return scrollRef.current?.scrollTo({x: 0, y: 50, animated: true});
+          return scrollRef.current?.scrollTo({x: 100, y: 0, animated: true});
         }}
       />
     </>
