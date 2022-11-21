@@ -5,6 +5,7 @@ import FlatlistAnimation from './src/FlatlistAnimation';
 import FlatlistScrollToIndex from './src/FlatlistScrollToIndex';
 import LoopingAnimation from './src/LoopingAnimation';
 import LottieAnimation from './src/LottieAnimation';
+import ScrollView from './src/ScrollView';
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
       {/* <LottieAnimation /> */}
       {/* <FlatlistAnimation /> */}
       {/* <FlatlistScrollToIndex /> */}
-      <Appearances />
+      {/* <Appearances /> */}
+      <ScrollView />
     </SafeAreaView>
   );
 };
