@@ -1,11 +1,13 @@
-import React from 'react';
-import {SafeAreaView} from 'react-native';
+import React, { useEffect, useRef } from 'react';
+import {SafeAreaView, Text, TextInput} from 'react-native';
+import Animation from './src/Animation';
 import Appearances from './src/Appearance';
 import FlatlistAnimation from './src/FlatlistAnimation';
 import FlatlistScrollToIndex from './src/FlatlistScrollToIndex';
 import LoopingAnimation from './src/LoopingAnimation';
 import LottieAnimation from './src/LottieAnimation';
 import ScrollView from './src/ScrollView';
+import TrackingGesture from './src/TrackingGesture';
 
 const App = () => {
   return (
@@ -16,13 +18,15 @@ const App = () => {
         justifyContent: 'center',
         backgroundColor: '#fff',
       }}>
-      {/* <Animated /> */}
+      {/* <Animation/> */}
       {/* <LoopingAnimation /> */}
       {/* <LottieAnimation /> */}
       {/* <FlatlistAnimation /> */}
       {/* <FlatlistScrollToIndex /> */}
       {/* <Appearances /> */}
-      <ScrollView />
+      {/* <ScrollView /> */}
+      <TrackingGesture />
+
     </SafeAreaView>
   );
 };
