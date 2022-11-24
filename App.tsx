@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import {SafeAreaView, Text, TextInput} from 'react-native';
+import AnimatedValueXY from './src/AnimatedValueXY';
 import Animation from './src/Animation';
 import Appearances from './src/Appearance';
 import FlatlistAnimation from './src/FlatlistAnimation';
@@ -25,7 +26,8 @@ const App = () => {
       {/* <FlatlistScrollToIndex /> */}
       {/* <Appearances /> */}
       {/* <ScrollView /> */}
-      <TrackingGesture />
+      {/* <TrackingGesture /> */}
+      <AnimatedValueXY />
 
     </SafeAreaView>
   );
