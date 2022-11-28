@@ -5,6 +5,7 @@ import Animation from './src/Animation';
 import Appearances from './src/Appearance';
 import FlatlistAnimation from './src/FlatlistAnimation';
 import FlatlistScrollToIndex from './src/FlatlistScrollToIndex';
+import KeyboardTS from './src/Keyboard';
 import LoopingAnimation from './src/LoopingAnimation';
 import LottieAnimation from './src/LottieAnimation';
 import ScrollView from './src/ScrollView';
@@ -27,7 +28,8 @@ const App = () => {
       {/* <Appearances /> */}
       {/* <ScrollView /> */}
       {/* <TrackingGesture /> */}
-      <AnimatedValueXY />
+      {/* <AnimatedValueXY /> */}
+      <KeyboardTS />
 
     </SafeAreaView>
   );
